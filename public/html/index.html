@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tech-Follow-Up Reminder System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Health Appointment Reminder System</h1>
+
+        <div class="form-container">
+            <h2>Schedule New Appointment</h2>
+            <form id="appointmentForm">
+                <div class="form-group">
+                    <label for="patientName">Patient Name</label>
+                    <input type="text" id="patientName" required>
+                </div>
+                <div class="form-group">
+                    <label for="patientContact">Contact (Phone/WhatsApp)</label>
+                    <input type="text" id="patientContact" required>
+                </div>
+                <div class="form-group">
+                    <label for="doctorName">Doctor Name</label>
+                    <input type="text" id="doctorName" required>
+                </div>
+                <div class="form-group">
+                    <label for="doctorContact">Doctor Contact</label>
+                    <input type="text" id="doctorContact" required>
+                </div>
+                <div class="form-group">
+                    <label for="appointmentDate">Appointment Date</label>
+                    <input type="datetime-local" id="appointmentDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="reminderType">Reminder Method</label>
+                    <select id="reminderType">
+                        <option value="sms">SMS</option>
+                        <option value="whatsapp">WhatsApp</option>
+                        <option value="email">Email</option>
+                    </select>
+                </div>
+                <button type="submit">Schedule Appointment</button>
+            </form>
+        </div>
+
+        <div class="appointments-container">
+            <h2>Upcoming Appointments</h2>
+            <div id="appointmentsList"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
