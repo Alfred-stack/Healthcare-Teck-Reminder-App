@@ -214,13 +214,9 @@ We welcome contributions! Here's how you can help:
 - Add comments for complex logic
 - Test your changes before submitting
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Alfred Bob-Manuel** - *Healthcare Teck Reminder App* - [GitHub](https://github.com/AlfredStack)
 
 ## 🙏 Acknowledgments
 
@@ -230,7 +226,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email your-email@example.com or create an issue in this repository.
+For support, email alfredbobmanuel1994@gmail.com or create an issue in this repository.
 
 ---
 
